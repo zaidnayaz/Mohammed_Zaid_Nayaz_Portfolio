@@ -396,8 +396,12 @@ dd {
 .skill-matrix,
 .credential-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+}
+
+.credential-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .project-card,
@@ -539,8 +543,11 @@ dd {
   .project-grid,
   .skill-matrix,
   .credential-grid,
-  .impact-band,
   .story-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .impact-band {
     grid-template-columns: 1fr;
   }
 
