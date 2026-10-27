@@ -415,6 +415,21 @@ dd {
   justify-content: space-between;
 }
 
+.featured-project {
+  border-color: rgba(98, 214, 255, 0.38);
+  background:
+    linear-gradient(145deg, rgba(98, 214, 255, 0.12), rgba(165, 243, 212, 0.045)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.035));
+}
+
+.project-stack {
+  margin-top: auto;
+  padding-top: 16px;
+  color: var(--accent-2) !important;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .project-kicker,
 .company {
   color: var(--gold) !important;
